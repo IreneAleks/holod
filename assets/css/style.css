@@ -1,7 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif; 
     font-size: 16px;
-    background-image: url(/assets/images/mainbackground.png);
+    background-image: url(../images/mainbackground.png);
     background-color: #edf5ff;
     background-repeat: no-repeat;
     background-size: 100%;
