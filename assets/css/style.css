@@ -48,11 +48,14 @@ header button {
 }
 
 header button:hover {
-    background-color: rgba(4, 40, 100, 0.7);
-    color: #fff;
+    background-color: #ffcf55;
     border-color: #fba00e;
     cursor: pointer;
     transition: background-color 0.2s linear;
+}
+
+header button a {
+    color: #042864;
 }
 
 /* MAIN */
