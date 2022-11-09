@@ -227,14 +227,18 @@ header button a {
     object-fit: cover;
 }
 
+.horizontal img {
+    object-fit: cover;
+    max-width: 90%;
+}
 
 .swiper-button-next, .swiper-rtl .swiper-button-prev {
-    right: 140px;
+    right: 80px;
     left: auto;
 }
 
 .swiper-button-prev, .swiper-rtl .swiper-button-next {
-    left: 140px;
+    left: 80px;
     right: auto;
 }
 
