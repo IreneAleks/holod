@@ -56,6 +56,7 @@ header button:hover {
 
 header button a {
     color: #042864;
+    padding: 15px 0;
 }
 
 /* MAIN */
@@ -157,25 +158,30 @@ header button a {
     transition: transform 0.2s linear;
 }
 
-.modal-dialog h3 {
+.modal-fixed-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fcba4f;
+    border: 3px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 30px;
+    padding: 15px 0;
+    margin-bottom: 8px;
+}
 
-    text-align: center;
+.modal-dialog h3 {   
     font-size: 20px;
     text-transform: uppercase;
-    background-color: #fba00eba;
-    border: 3px solid #fff;
-    padding: 20px 0;
-    margin-block-start: 0;
+    width: 90%;
 }
 
 .modal-close {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 15px;
-    right: 20px;
-    z-index: 1;
     border: none;
     border-radius: 5px;
     background: transparent;
@@ -198,14 +204,14 @@ header button a {
 }
 
 .modal-text {
-    padding: 50px 40px;
+    padding: 0 40px 50px 40px;
     text-indent: 2em;
 }
 
 
 /* SLIDER */
 .swiper {
-    width: 1000px;
+    max-width: 1000px;
     height: 100%;
 }
 
@@ -241,6 +247,11 @@ header button a {
     transition: opacity 0.2s linear;
 }
 
+.swiper-pagination {
+    position: static;
+    margin: 15px 0;
+}
+
 .modal-dialog .swiper-pagination-bullet {
     width: 12px;
     height: 12px;
@@ -266,7 +277,7 @@ footer {
     margin: auto;
 }
 
-.footer-contacts p {
+.footer-contacts p, .footer-nummail {
     font-size: 30px;
     font-weight: bold;
 }
@@ -285,6 +296,7 @@ footer {
 }
 
 .hours-of-work {
+    color: #fff;
     padding-top: 50px;
 }
 
