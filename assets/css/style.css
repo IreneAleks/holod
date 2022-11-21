@@ -2,10 +2,6 @@ body {
     font-family: 'Montserrat', sans-serif; 
     font-size: 16px;
     background-color: #edf5ff;
-    /* background-image: url(../images/mainbackground.png);
-    
-    background-repeat: no-repeat;
-    background-size: 100%; */
 }
 
 .no-scroll {
@@ -35,8 +31,6 @@ hr {
     height: 100%;
     object-fit: cover;
 }
-
-
 
 /* HEADER */
 .header {
@@ -69,12 +63,12 @@ hr {
 
 .header button:hover {
     background-color: #ffcf55;
-    border-color: #fba00e;
     cursor: pointer;
-    transition: background-color 0.2s linear;
+    transform: scale(1.05);
+    transition: all 0.2s linear;
 }
 
-header button a {
+.header button a {
     color: #042864;
     padding: 15px 0;
 }
