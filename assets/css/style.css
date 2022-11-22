@@ -375,13 +375,6 @@ footer {
         padding: 15px 20px;
     }
 
-    .main-title p {
-        font-size: 20px;
-    }
-
-    .main-title h1 {
-        font-size: 25px;
-    }
 }
 
 @media (max-width: 480px) {
@@ -400,23 +393,11 @@ footer {
 
     .main-title {
         padding: 25px 14px;
-    margin: 135px 20px 60px;
-    }
-
-    .main-title p {
-        font-size: 15px;
-    }
-
-    .main-title h1 {
-        font-size: 20px;
+        margin: 70px 20px 25px;
     }
 
     .worktypes-item {
         font-size: 12px;
-    }
-
-    .worktypes-item img {
-        height: 50px;
     }
 
     .work-title {
@@ -431,7 +412,7 @@ footer {
     }
 
     .footer-contacts {
-        font-size: 18px;
+        font-size: 20px;
     }
 
 }
