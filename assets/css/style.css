@@ -384,7 +384,7 @@ footer {
 
     .work-item img {
         height: 280px;
-        max-width: 200px;
+        max-width: 210px;
         object-fit: cover;
         width: 100%;
     }
@@ -457,7 +457,11 @@ footer {
     }
 
     .swiper-slide img {
-        max-width: 70%;
+        max-width: 75%;
+    }
+
+    .horizontal img {
+        max-width: 85%;
     }
 
     .swiper-button-next, .swiper-rtl .swiper-button-prev {
