@@ -358,6 +358,13 @@ footer {
     .footer-contacts {
         font-size: 25px;
     }
+
+    /* Modal */
+
+
+
+
+
 }
 
 
@@ -375,6 +382,21 @@ footer {
         padding: 15px 20px;
     }
 
+    .work-item img {
+        height: 280px;
+        max-width: 200px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    /* Modal */
+
+
+
+
+
+
+
 }
 
 @media (max-width: 480px) {
@@ -387,13 +409,21 @@ footer {
     }
 
     .header button {
-        font-size: 12px;
+        font-size: 14px;
         padding: 12px 12px;
     }
 
     .main-title {
         padding: 25px 14px;
         margin: 70px 20px 25px;
+    }
+
+    .main-title p {
+        font-size: 22px;
+    }
+
+    .main-title h1 {
+        font-size: 27px;
     }
 
     .worktypes-item {
@@ -404,16 +434,54 @@ footer {
         font-size: 20px;
     }
 
-    .work-item img {
-        height: 280px;
-        max-width: 200px;
-        object-fit: cover;
-        width: 100%;
-    }
-
     .footer-contacts {
         font-size: 20px;
     }
+
+    /* Modal */
+    .modal-dialog {
+        max-height: 100%;
+    }
+
+    .modal-fixed-header {
+        padding: 5px 0;
+    }
+
+    .modal-close img {
+        height: 15px;
+    }
+
+    .modal-dialog h3 {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .swiper-slide img {
+        max-width: 70%;
+    }
+
+    .swiper-button-next, .swiper-rtl .swiper-button-prev {
+        right: 10px;
+        top: 40%;
+    }
+
+    .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        left: 10px;
+        top: 40%;
+    }
+
+    .modal-dialog .swiper-pagination-bullet {
+        width: 8px;
+        height: 8px;
+    }
+
+    .modal-text {
+        font-size: 14px;
+    }
+
+
+
+
 
 }
 
